@@ -1,0 +1,57 @@
+*
+{
+    margin:0px;
+    padding:0px
+}
+body
+{
+    background-image:url('../image/body.png')
+}
+.container
+{
+    margin:auto;
+    width:1000px;
+}
+/* Start Header */
+.header .navbar {text-transform:capitalize;font-size:20px;background-color:#191919;overflow:hidden;border-width:0 0 4px 0;border-style:solid;border-color:red}
+.header .navbar .container h1{float:left;text-transform:uppercase;font-size:45px;font-family:'BoycottRegular';width:300px;margin-bottom:0px;margin-top:20px}
+.header .navbar .container h1 .orang{color:orange}
+.header .navbar .container h1 .deeppink{color:deeppink}
+.header .navbar .container h1 .purple{color:purple}
+.header .navbar .container h1 .blue{color:blue}
+.header .navbar .container h1 .green{color:green}
+.header .navbar .container ul{overflow:hidden;float:right;list-style-type:none;
+   width:700px;padding-top:32px}
+.header .navbar .container ul li{float:left;padding-top:10px;padding-right:65px }
+.header .navbar .container ul li a{display:inline-block;text-decoration:none;color:#969696}
+.header .navbar .container ul li .green a:hover{color:green}
+.header .navbar .container ul li .deeppink a:hover{color:deeppink}
+.header .navbar .container ul li .orang a:hover{color:orange}
+.header .navbar .container ul li .blue a:hover{color:blue}
+.header .navbar .container ul li .purple a:hover{color:purple}
+/* End Header */
+/* start welcom */
+.welcome .container{text-align:center;padding:80px 0px;font-weight:bold;text-transform:uppercase;line-height:30px}
+.welcome .container .deeppink{color:deeppink;font-size:40px}
+.welcome .container .green{color:green;font-size:20px;display:block;transform:rotate(-90deg)}
+.welcome .container .black{color:black;font-size:40px}
+.welcome .container .orang{color:orange;font-size:40px}
+/* End welcom */
+/* start paragraph */
+.paragraph .container{overflow:hidden}
+.paragraph .container .paph{width:226px;float:left;padding:8px;text-align: justify;}
+.paragraph .container h3{text-align:center;padding:5px}
+/* start paragraph */
+/* start gallery */
+.gallery .container {text-align:center;text-transform:uppercase;font-size:50px;padding:40px}
+.gallery .container .orang{color:orange}
+.gallery .container .deeppink{color:deeppink}
+/* End gallery */
+/* start images */
+.image .container{overflow:hidden;padding-top:55px}
+.image .container .my-work > div{width:230px;float:left;padding:5px;margin-top:15px;margin-bottom:15px}
+.image .container .my-work > div img{border: 2px solid black}
+/* End images */
+/* start footer */
+.footer {color:#fff;padding:40px;background-color:#191919;margin-top:20px}
+/* End footer */
